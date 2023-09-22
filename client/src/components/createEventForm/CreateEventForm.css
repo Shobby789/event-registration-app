@@ -1,0 +1,13 @@
+.createEventForm {
+  width: 60%;
+  padding: 50px 60px;
+  box-shadow: 0 0 30px rgb(230, 229, 229);
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .createEventForm {
+    width: 100%;
+    padding: 50px 20px;
+  }
+}

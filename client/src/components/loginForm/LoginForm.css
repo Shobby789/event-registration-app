@@ -1,0 +1,19 @@
+.loginForm {
+  box-shadow: 0 0 30px rgb(234, 231, 231);
+  border-radius: 10px;
+  width: 50%;
+  padding: 3rem 4rem;
+}
+
+.underline {
+  width: 38px;
+  border: 1px solid orangered;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .loginForm {
+    width: 100%;
+    padding: 2.5rem 2rem;
+  }
+}

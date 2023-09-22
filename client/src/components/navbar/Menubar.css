@@ -1,0 +1,22 @@
+.light-links {
+  color: white;
+  padding: 0 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.dark-links {
+  color: black;
+  padding: 0 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .light-links {
+    margin-bottom: 50px;
+  }
+  .dark-links {
+    margin-bottom: 50px;
+  }
+}

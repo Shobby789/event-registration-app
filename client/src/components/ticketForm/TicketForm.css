@@ -1,0 +1,13 @@
+.ticketForm {
+  width: 60%;
+  box-shadow: 0 0 30px rgb(228, 228, 228);
+  border-radius: 10px;
+  padding: 70px 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .ticketForm {
+    width: 90%;
+    padding: 50px 10px;
+  }
+}
