@@ -40,18 +40,21 @@ export default function Menubar() {
       collapseOnSelect
       expand="lg"
       fixed="top"
-      className={colorChange ? "text-bg-light" : "text-light"}
+      className={colorChange ? "text-bg-light" : "text-bg-light"}
     >
       <Container>
         <Navbar.Brand
           to="/"
           className={
-            colorChange ? "text-dark fw-bold fs-1" : "text-light fw-bold fs-1"
+            colorChange ? "text-dark fw-bold fs-1" : "text-dark fw-bold fs-1"
           }
         >
           me<span className="fw-bold text-danger">U</span>p
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          className="border-0"
+        />
         <Navbar.Collapse id="responsive-navbar-nav" className="">
           <Nav className="ms-auto">
             <Nav>
