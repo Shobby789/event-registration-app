@@ -16,7 +16,7 @@ const validate = (values) => {
   return errors;
 };
 
-export default function LoginForm() {
+export default function LoginForm({ labelName, inputType }) {
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -71,7 +71,7 @@ export default function LoginForm() {
 
         <Form.Group className="mb-3">
           <Form.Label htmlFor="email" className="fw-semibold">
-            Email
+            {labelName}
           </Form.Label>
           <Form.Control
             type="email"
